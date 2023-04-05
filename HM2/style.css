@@ -4,42 +4,48 @@
     font-size: 24px;
 }
 .body{
-    width:1728px;
-    height:2613px;
+    width:100%;
     font-family: Times;
 }
 .start{
-    background-color: #F4F4F4;
-    width: 1728px;
+    background-color: rgba(244, 244, 244, 0.7);
+    width: 100%;
     height: 54px;
     padding-top: 26px;
     font-weight: 400;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(3px);
 }
 .news{
     margin-left: 76px;
 }
 .true{
-    margin-left: 1076px;
-    margin-right: 80px;
+    position: absolute;
+    right: 80px;
 }
 .step2{
-    margin-top: 61px;
+    margin-top: 141px;
     margin-left: 76px;
-    width: 1578px;
+    width: 94.5%;
     height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .zhabysqaq{
     position: sticky;
-    background-color: #F4F4F4;
-    width: 1200px;
+    background-color: #f4f4f4;
+    width: calc(100% - 104px - 74px - 274px);
     height: 380px;
-    top: 0;
-    float: right;
+    top: 100px;
+    margin-left: 104px;
+    padding: 27px 0 0 27px;
 }
+
 .kartochka{
     width: 274px;
     height: 1200px;
-    float: left;
 }
 .kartochka1{
     height: 367px;
@@ -71,14 +77,14 @@
 }
 .line{
     border: 1px solid #DCDCDC;
-    width: 1578px;
+    width: calc(100% - 76px - 74px);
     margin-left: 76px;
     margin-top: 73px;
 }
 .step3{
-    width: 1572px;
+    width: calc(100% - 97px - 80px);
     height: 591px;
-    margin-left: 76px;
+    margin-left: 97px;
     margin-top: 77px;
 }
 .ulken{
@@ -86,15 +92,13 @@
     font-size:60px;
 }
 .sozder{
-    width: 1545px;
+    width: 100%;
     height: 276px;
     margin-top: 26px;
-    margin-left: 21px;
     font-size:40px;
 }
 .mil{
     margin-top: 109px;
-    margin-left: 21px;
     font-size:18px;
 }
 .full{
@@ -103,26 +107,23 @@
     padding: 19px 48px 19px 49px;
     border-radius: 10px;
     margin-top: 15px;
-    margin-left: 21px;
     border: none;
 }
 
 .step4{
-    width: 1728px;
+    width: calc(100% - 103px);
     height: 471px;
     background-color: #F4F4F4;
     margin-top: 60px;
+    padding-left: 103px;
 }
 .sony1{
-    margin-left: 103px;
     padding-top: 77px;
 }
 .sony2{
-    margin-left: 103px;
     margin-top: 33px;
 }
 .uhuhuh{
-    margin-left: 103px;
     margin-top: 252px;
     font-size: 16px;
 }
